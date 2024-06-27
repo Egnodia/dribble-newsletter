@@ -1,0 +1,47 @@
+.heading{
+    text-align: center;
+    margin: 0 auto;
+    color: #121212;
+}
+
+img{
+    width: 380px;
+    border: 3px solid;
+}
+
+.heading > p{
+    font-size: 1rem;
+}
+
+.action{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action > input{
+    width: 200px;
+    padding: 5px;
+    border: 3px solid;
+    margin-bottom: 10px;
+}
+
+.action > button{
+    border: none;
+    background-color: #121212;
+    color: white;
+    width: 212px;
+    padding: 10px;
+}
+
+
+.action > p{
+    text-align: center;
+    font-style: italic;
+}
+
+.action > input::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
